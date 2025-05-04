@@ -1,0 +1,10 @@
+^C:\USERS\ARZAK\.CARGO\REGISTRY\SRC\INDEX.CRATES.IO-1949CF8C6B5B557F\PROST-BUILD-0.10.4\THIRD-PARTY\PROTOBUF\CMAKE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/arzak/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/prost-build-0.10.4/third-party/protobuf/cmake -BC:/Users/arzak/Desktop/grpc-tutorial/target/debug/build/prost-build-6eaf4424f252c23e/out/build --check-stamp-file C:/Users/arzak/Desktop/grpc-tutorial/target/debug/build/prost-build-6eaf4424f252c23e/out/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

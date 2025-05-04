@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\src\google\protobuf\compiler\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\arzak\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\prost-build-0.10.4\third-party\protobuf\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\arzak\Desktop\grpc-tutorial\target\debug\build\prost-build-6eaf4424f252c23e\out\build\version.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5B57D7A5-B0E1-3588-B506-C9F86A5179D5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

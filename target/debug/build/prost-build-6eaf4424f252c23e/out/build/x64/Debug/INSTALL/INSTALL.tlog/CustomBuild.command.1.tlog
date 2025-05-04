@@ -1,0 +1,10 @@
+^C:\USERS\ARZAK\DESKTOP\GRPC-TUTORIAL\TARGET\DEBUG\BUILD\PROST-BUILD-6EAF4424F252C23E\OUT\BUILD\CMAKEFILES\14DDB7D189576F179272273AA105E620\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
